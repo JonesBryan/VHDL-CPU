@@ -1,0 +1,48 @@
+Active-HDL 12.0.118.7745 2024-12-07 20:08:40
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_multiplier_16bit
+
+
+--------------------------------------------------------------------------------------------------------
+Entity              | Architecture    | Library  | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------
+multiplier_16bit_tb | TB_ARCHITECTURE | project2 |      | 12.0.118.7745 (Windows) | -dbg
+multiplier_16bit    | structural      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+half_adder          | structural      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+xor3                | structural      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+and2                | behavioral      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+xor2                | behavioral      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+full_adder          | structural      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+or2                 | behavioral      | project2 |      | 12.0.118.7745 (Windows) | -dbg
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+VHDL Configuration                    | Library  | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------
+testbench_for_multiplier_16bit        | project2 |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+VHDL Package                          | Library  | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------------
+standard                              | std      |      |                         | <unavailable>
+TEXTIO                                | std      |      |                         | <unavailable>
+std_logic_1164                        | ieee     |      |                         | <unavailable>
+std_logic_arith                       | ieee     |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                    | ieee     |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Library                               | Comment
+--------------------------------------------------------------------------------------------------------
+ieee                                  | Standard IEEE packages library
+project2                              | None
+std                                   | Standard VHDL library
+--------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testbench_for_multiplier_16bit testbench_for_multiplier_16bit
+
+
+The performance of simulation is reduced. Version EDU Edition

@@ -1,0 +1,213 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Project2
+
+[Library]
+Project2=.\Project2\Project2.lib
+
+[$LibMap$]
+Project2=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=cpu_tb|testbench_for_cpu|1 instructiondecoder_tb|testbench_for_instructiondecoder|1 multiplier_16bit_tb|testbench_for_multiplier_16bit|1 ram_tb|testbench_for_ram|1 registerfile_tb|testbench_for_registerfile|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+ALU=1
+Gates=1
+TestBench=1
+Waveforms=1
+
+[Files]
+/mux_4bit.vhd=-1
+/RegisterFile.vhd=-1
+/SignExtender.vhd=-1
+/RAM.vhd=-1
+/InstructionMemory.vhd=-1
+/mux_1_16bit.vhd=-1
+/InstructionDecoder.vhd=-1
+/CPU.vhd=-1
+/or3.vhd=-1
+ALU/mux_3_16bit.vhd=-1
+ALU/half_adder.vhd=-1
+ALU/full_adder.vhd=-1
+ALU/multiplier_16bit.vhd=-1
+ALU/adder_16bit.vhd=-1
+ALU/subtractor_16bit.vhd=-1
+ALU/ALU.vhd=-1
+Gates/xor2.vhd=-1
+Gates/not1.vhd=-1
+Gates/or2.vhd=-1
+Gates/and2.vhd=-1
+Gates/and4.vhd=-1
+Gates/or16.vhd=-1
+Gates/or4.vhd=-1
+Gates/xor3.vhd=-1
+Gates/nor16.vhd=-1
+Gates/and3.vhd=-1
+TestBench/instructionmemory_TB.vhd=-1
+TestBench/ram_TB.vhd=-1
+TestBench/signextender_TB.vhd=-1
+TestBench/subtractor_16bit_TB.vhd=-1
+TestBench/registerfile_TB.vhd=-1
+TestBench/mux_3_16bit_TB.vhd=-1
+TestBench/mux_4bit_TB.vhd=-1
+TestBench/mux_1_16bit_TB.vhd=-1
+TestBench/multiplier_16bit_TB.vhd=-1
+TestBench/cpu_TB.vhd=-1
+TestBench/half_adder_TB.vhd=-1
+TestBench/instructiondecoder_TB.vhd=-1
+TestBench/full_adder_TB.vhd=-1
+TestBench/adder_16bit_TB.vhd=-1
+TestBench/alu_TB.vhd=-1
+TestBench/multiplier_16bit_TB_runtest.do=-1
+TestBench/instructionmemory_TB_runtest.do=-1
+TestBench/instructiondecoder_TB_runtest.do=-1
+TestBench/ram_TB_runtest.do=-1
+TestBench/registerfile_TB_runtest.do=-1
+TestBench/signextender_TB_runtest.do=-1
+TestBench/cpu_TB_runtest.do=-1
+TestBench/alu_TB_runtest.do=-1
+TestBench/adder_16bit_TB_runtest.do=-1
+TestBench/subtractor_16bit_TB_runtest.do=-1
+TestBench/half_adder_TB_runtest.do=-1
+TestBench/full_adder_TB_runtest.do=-1
+TestBench/mux_3_16bit_TB_runtest.do=-1
+TestBench/mux_1_16bit_TB_runtest.do=-1
+TestBench/mux_4bit_TB_runtest.do=-1
+Waveforms/InstructionDecoder.asdb=-1
+Waveforms/InstructionDecoder.awc=-1
+Waveforms/cpu.asdb=-1
+Waveforms/cpu.awc=-1
+Waveforms/RegisterFile.asdb=-1
+Waveforms/RegisterFile.awc=-1
+Waveforms/ram.asdb=-1
+Waveforms/ram.awc=-1
+Waveforms/InstructionMemory.asdb=-1
+Waveforms/InstructionMemory.awc=-1
+Waveforms/mux4.asdb=-1
+Waveforms/mux4.awc=-1
+Waveforms/alu.asdb=-1
+Waveforms/alu.awc=-1
+Waveforms/mux_1_16.asdb=-1
+Waveforms/mux_1_16.awc=-1
+Waveforms/half_adder.asdb=-1
+Waveforms/half_adder.awc=-1
+Waveforms/full_adder.asdb=-1
+Waveforms/full_adder.awc=-1
+Waveforms/mux_3_16.asdb=-1
+Waveforms/mux_3_16.awc=-1
+Waveforms/subtractor.asdb=-1
+Waveforms/subtractor.awc=-1
+Waveforms/adder.asdb=-1
+Waveforms/adder.awc=-1
+Waveforms/SignExtender.asdb=-1
+Waveforms/SignExtender.awc=-1
+Waveforms/Multiplier.asdb=-1
+Waveforms/Multiplier.awc=-1
+
+[Files.Data]
+.\src\mux_4bit.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\SignExtender.vhd=VHDL Source Code
+.\src\RAM.vhd=VHDL Source Code
+.\src\InstructionMemory.vhd=VHDL Source Code
+.\src\mux_1_16bit.vhd=VHDL Source Code
+.\src\InstructionDecoder.vhd=VHDL Source Code
+.\src\CPU.vhd=VHDL Source Code
+.\src\or3.vhd=VHDL Source Code
+.\src\ALU\mux_3_16bit.vhd=VHDL Source Code
+.\src\ALU\half_adder.vhd=VHDL Source Code
+.\src\ALU\full_adder.vhd=VHDL Source Code
+.\src\ALU\multiplier_16bit.vhd=VHDL Source Code
+.\src\ALU\adder_16bit.vhd=VHDL Source Code
+.\src\ALU\subtractor_16bit.vhd=VHDL Source Code
+.\src\ALU\ALU.vhd=VHDL Source Code
+.\src\Gates\xor2.vhd=VHDL Source Code
+.\src\Gates\not1.vhd=VHDL Source Code
+.\src\Gates\or2.vhd=VHDL Source Code
+.\src\Gates\and2.vhd=VHDL Source Code
+.\src\Gates\and4.vhd=VHDL Source Code
+.\src\Gates\or16.vhd=VHDL Source Code
+.\src\Gates\or4.vhd=VHDL Source Code
+.\src\Gates\xor3.vhd=VHDL Source Code
+.\src\Gates\nor16.vhd=VHDL Source Code
+.\src\Gates\and3.vhd=VHDL Source Code
+.\src\TestBench\instructionmemory_TB.vhd=VHDL Test Bench
+.\src\TestBench\ram_TB.vhd=VHDL Test Bench
+.\src\TestBench\signextender_TB.vhd=VHDL Test Bench
+.\src\TestBench\subtractor_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\registerfile_TB.vhd=VHDL Test Bench
+.\src\TestBench\mux_3_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\mux_4bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\mux_1_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\multiplier_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\cpu_TB.vhd=VHDL Test Bench
+.\src\TestBench\half_adder_TB.vhd=VHDL Test Bench
+.\src\TestBench\instructiondecoder_TB.vhd=VHDL Test Bench
+.\src\TestBench\full_adder_TB.vhd=VHDL Test Bench
+.\src\TestBench\adder_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_TB.vhd=VHDL Test Bench
+.\src\TestBench\multiplier_16bit_TB_runtest.do=Macro
+.\src\TestBench\instructionmemory_TB_runtest.do=Macro
+.\src\TestBench\instructiondecoder_TB_runtest.do=Macro
+.\src\TestBench\ram_TB_runtest.do=Macro
+.\src\TestBench\registerfile_TB_runtest.do=Macro
+.\src\TestBench\signextender_TB_runtest.do=Macro
+.\src\TestBench\cpu_TB_runtest.do=Macro
+.\src\TestBench\alu_TB_runtest.do=Macro
+.\src\TestBench\adder_16bit_TB_runtest.do=Macro
+.\src\TestBench\subtractor_16bit_TB_runtest.do=Macro
+.\src\TestBench\half_adder_TB_runtest.do=Macro
+.\src\TestBench\full_adder_TB_runtest.do=Macro
+.\src\TestBench\mux_3_16bit_TB_runtest.do=Macro
+.\src\TestBench\mux_1_16bit_TB_runtest.do=Macro
+.\src\TestBench\mux_4bit_TB_runtest.do=Macro
+.\src\Waveforms\InstructionDecoder.asdb=Accelerated Waveform File
+.\src\Waveforms\InstructionDecoder.awc=Accelerated Waveform Configuration
+.\src\Waveforms\cpu.asdb=Accelerated Waveform File
+.\src\Waveforms\cpu.awc=Accelerated Waveform Configuration
+.\src\Waveforms\RegisterFile.asdb=Accelerated Waveform File
+.\src\Waveforms\RegisterFile.awc=Accelerated Waveform Configuration
+.\src\Waveforms\ram.asdb=Accelerated Waveform File
+.\src\Waveforms\ram.awc=Accelerated Waveform Configuration
+.\src\Waveforms\InstructionMemory.asdb=Accelerated Waveform File
+.\src\Waveforms\InstructionMemory.awc=Accelerated Waveform Configuration
+.\src\Waveforms\mux4.asdb=Accelerated Waveform File
+.\src\Waveforms\mux4.awc=Accelerated Waveform Configuration
+.\src\Waveforms\alu.asdb=Accelerated Waveform File
+.\src\Waveforms\alu.awc=Accelerated Waveform Configuration
+.\src\Waveforms\mux_1_16.asdb=Accelerated Waveform File
+.\src\Waveforms\mux_1_16.awc=Accelerated Waveform Configuration
+.\src\Waveforms\half_adder.asdb=Accelerated Waveform File
+.\src\Waveforms\half_adder.awc=Accelerated Waveform Configuration
+.\src\Waveforms\full_adder.asdb=Accelerated Waveform File
+.\src\Waveforms\full_adder.awc=Accelerated Waveform Configuration
+.\src\Waveforms\mux_3_16.asdb=Accelerated Waveform File
+.\src\Waveforms\mux_3_16.awc=Accelerated Waveform Configuration
+.\src\Waveforms\subtractor.asdb=Accelerated Waveform File
+.\src\Waveforms\subtractor.awc=Accelerated Waveform Configuration
+.\src\Waveforms\adder.asdb=Accelerated Waveform File
+.\src\Waveforms\adder.awc=Accelerated Waveform Configuration
+.\src\Waveforms\SignExtender.asdb=Accelerated Waveform File
+.\src\Waveforms\SignExtender.awc=Accelerated Waveform Configuration
+.\src\Waveforms\Multiplier.asdb=Accelerated Waveform File
+.\src\Waveforms\Multiplier.awc=Accelerated Waveform Configuration
+
